@@ -1,0 +1,5 @@
+<?php
+/** Halaman tipis: cek role lalu memuat modul bersama (achievements/delete.php). */
+require_once __DIR__ . '/../../middleware/role.php';
+requireAdmin();
+require __DIR__ . '/../../modules/achievements/delete.php';
